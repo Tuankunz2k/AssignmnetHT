@@ -3,10 +3,6 @@ body {
     background-color: #f7f7f7;
 }
 
-.container {
-    width: 960px;
-}
-
 /*header*/
 
 .header-top {
@@ -113,12 +109,21 @@ body {
 
 .Tilte {
     margin-top: 30px;
+    text-align: center;
 }
 
 .Tilte:after {
     content: '';
     display: block;
     clear: both;
+}
+
+.left-img {
+    width: 240px;
+}
+
+.right-img {
+    width: 240px;
 }
 
 .Tilte .left-img {
@@ -128,7 +133,12 @@ body {
 .Tilte .Course-Categories-Title {
     float: left;
     text-align: center;
-    margin: 30px 0;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.Tilte {
+    margin-bottom: 40px;
 }
 
 .Course-Categories .container {
@@ -237,13 +247,30 @@ body {
 .our-blog .card-body p {
     margin: auto;
 }
+
 .our-blog .img2 {
     height: 200px;
 }
 
-
 .our-blog .feedback {
     max-width: 100%;
+}
+
+/* abouut us*/
+
+.about-us-lead {
+    margin-top: 20px;
+    font-size: 12pt;
+    color: #cccccc;
+    padding-bottom: 20px;
+}
+
+.btn-slide {
+    margin-top: 20px;
+}
+
+.jane {
+    margin-bottom: 20px;
 }
 
 .about-us .container {
@@ -251,7 +278,7 @@ body {
 }
 
 .about-us {
-    background: #252526;
+    background: url(about-us/background.png);
     text-align: center;
 }
 
@@ -264,14 +291,6 @@ body {
 .about-us--h4 {
     color: #6c83e6;
 }
-
-.about-us-lead {
-    margin-top: 50px;
-    font-size: 12pt;
-    color: #cccccc;
-    padding-bottom: 45px;
-}
-
 
 /*Nav-footer*/
 
@@ -305,8 +324,6 @@ body {
     background-color: #252526;
 }
 
-footer {}
-
 footer p {
     color: white;
 }
@@ -332,33 +349,45 @@ footer p {
     color: #596ab3;
 }
 
-.subcribe{
+.subcribe {
     background: #778ce6;
-    
 }
-.subcribe--content{
+
+.subcribe--content {
     font-size: 16pt;
     color: #ffffff;
     margin-right: 50px;
-    padding-left: 170px;
+    padding-left: 280px;
 }
-.sub{
+
+.sub {
     padding: 10px;
 }
-.popular-courses-title-img{
+
+.popular-courses-title-img {
     font-size: 13px;
-    
 }
-.popular-courses .col-6{
+
+.popular-courses .col-6 {
     margin-bottom: 20px;
 }
-.popular-courses-title{
+
+.popular-courses-title {
     margin: 35px 5px;
 }
-.course-categories-title{
+
+.course-categories-title {
     margin: 35px 5px;
 }
-.footer-logo{
+
+.footer-logo {
     margin: 20px 5px;
 }
 
+@media(min-width: 576px) {}
+
+@media(min-width: 768px) {}
+
+@media(min-width: 992px) {}
+
+@media(min-width: 1200px) {}
